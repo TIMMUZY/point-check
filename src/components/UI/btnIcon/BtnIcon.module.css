@@ -1,0 +1,95 @@
+.btnIcon {
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: all .5s ease-out;
+}
+
+.btnIcon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnIcon:active {
+  background-color: var(--color-active);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.colorPrimary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.colorSecondary { 
+  background-color: var(--color-secondary);
+  color: var(--color-text-gray);
+}
+
+.colorGhost { 
+  background-color: var(--color-transparent);
+  color: var(--color-text-gray);
+}
+
+.colorBackInDark { 
+  background-color: var(--color-back-in-dark);
+  color: var(--color-text-gray);
+}
+
+.colorActive {
+  background-color: var(--color-active);
+  color: var(--color-white);
+}
+
+.colorActiveInDark {
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+}
+
+.colorWhite {
+  background-color: var(--color-white);
+  color: var(--color-text-gray);
+}
+
+.btnIconBig {
+  font-size: 16px;
+  padding: 14px;
+}
+
+.btnIconMedium {
+  font-size: 14px;
+  padding: 11px;
+}
+
+.btnIconSmall {
+  font-size: 12px;
+  padding: 12px;
+}
+
+.forFilterDelete {
+  width: 18px;
+  height: 18px;
+  color: var(--color-active);
+}
+
+.square {
+  border-radius: 12px;
+}
+.circle {
+  border-radius: 9999px;
+}
+
+.pagination {
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+}

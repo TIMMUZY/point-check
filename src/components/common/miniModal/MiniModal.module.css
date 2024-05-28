@@ -1,0 +1,59 @@
+.wrapModal {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+}
+
+.wrapModal.active {
+    transform: scale(1);
+}
+
+.contentModal {
+    visibility: hidden;
+    outline: 2px solid rgba(139, 139, 139, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 12px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    right: 40px;
+    transform: scale(0);
+    transition: 0.4s all;
+}
+
+.contentModal.active {
+    visibility: visible;
+    transform: scale(1);
+}
+
+.contentModalRole {
+    visibility: hidden;
+    opacity: 0;
+    outline: 2px solid rgba(139, 139, 139, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 12px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    right: 40px;
+    transition: .8s all;
+}
+
+.contentModalRole.activeRole {
+    visibility: visible;
+    opacity: 1;
+    right: 365px;
+}

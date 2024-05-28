@@ -1,0 +1,78 @@
+.item {
+  position: relative;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  padding: 8px 4px 8px 20px;
+  width: 100%;
+  height: 62px;
+  font-size: 16px;
+  color: var(--color-text-dark);
+  display: grid;
+  grid-template-columns: 44px 1fr 250px 3fr 350px 3fr 190px 1fr 35px;
+}
+
+.imageWrapper {
+  grid-column: 1 / 2;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+}
+
+.image {
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.name {
+  grid-column: 3 / 4;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.note {
+  grid-column: 5 / 6;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.type {
+  grid-column: 7 / 8;
+  display: flex;
+  align-items: center;
+}
+
+.option {
+  grid-column: 9 / 10;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all .5s linear;
+}
+
+.btnOption {
+  color: var(--color-text-dark);
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.activeModal {
+  transform: rotate(90deg) scale(1.3);
+  color: var(--color-primary);
+}
+
+.error {
+  background: rgb(241, 156, 156);
+  color: black;
+  font-size: 20px;
+}

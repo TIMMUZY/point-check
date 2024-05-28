@@ -1,0 +1,52 @@
+.territoryBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.forImage {
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-text-gray);
+  display: flex;
+  padding: 40px 27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px dashed var(--color-text-gray);
+  background: var(--color-blue-light);
+}
+
+.imageContainer {
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  height: 140px;
+}
+
+.imageWrapper {
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

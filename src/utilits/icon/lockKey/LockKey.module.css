@@ -1,0 +1,14 @@
+.lockKey {
+  fill: currentColor;
+  width: 1.5em;
+  height: 1.5em;
+  flex-shrink: 0;
+}
+
+.dark {
+  fill: var(--color-black);
+}
+
+.gray {
+  fill: var(--color-text-gray);
+}

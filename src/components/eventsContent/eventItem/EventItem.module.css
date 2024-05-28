@@ -1,0 +1,132 @@
+.tableItem {
+  border-radius: 10px;
+  background-color: var(--color-white);
+  padding: 8px 4px 8px 20px;
+  width: 100%;
+  font-size: 16px;
+  color: var(--color-text-gray);
+  display: grid;
+  grid-template-columns: 470px auto 240px auto 150px auto 120px auto 120px;
+  padding: 10px 20px 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+  /* display: grid;
+  grid-template-columns: 40px 1fr 150px 1fr 150px 1fr 220px 1fr 150px 5fr 200px 1fr 120px 1fr 35px; */
+}
+
+.eventBlog {
+  grid-column: 1 / 2;
+  display: flex;
+  align-items: center;
+  width: 494px;
+  align-items: center;
+  gap: 10px;
+}
+
+.crossItem {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+  gap: 1px;
+  border-radius: 8px;
+  background: var(--color-background);
+}
+
+.icon {
+  display: flex;
+  width: 110px;
+  align-items: center;
+  gap: 10px;
+}
+
+.textMain {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  /* 100% */
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+
+}
+
+.textNegative {
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.24px;
+}
+
+.textNegativeBig {
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 142.857% */
+  letter-spacing: 0.24px;
+}
+
+.timeBlog {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.tableItemKindBlog {
+  grid-column: 3 / 4;
+  display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.tableItemIcon {
+  display: flex;
+  align-items: center;
+}
+.carNum {
+  display: flex;
+padding: 4px 8px;
+align-items: center;
+border-radius: 6px;
+border: 1px solid var(--color-black);
+}
+
+.tableItemTextL {
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+letter-spacing: 0.24px;
+color: var(--color-black);
+}
+
+.tableItemTerritory {
+  grid-column: 5 / 6;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}
+
+.tableItemType {
+  grid-column: 7 / 8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}
+
+.tableItemStatus {
+  grid-column: 9 / 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

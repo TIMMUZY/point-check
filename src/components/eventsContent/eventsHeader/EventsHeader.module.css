@@ -1,0 +1,46 @@
+.tableHeader {
+  position:sticky;
+  z-index: 3;
+  top: 0px;
+  background-color: var(--color-background);
+  border-radius: 10px;
+  padding: 8px 4px 8px 20px;
+  width: 100%;
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: var(--color-text-gray);
+  display: grid;
+  grid-template-columns: 470px auto 240px auto 150px auto 120px auto 120px;
+}
+
+.tableEvent {
+  grid-column: 1 / 2;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderName {
+  grid-column: 3 / 4;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderTerritory {
+  grid-column: 5 / 6;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderType {
+  grid-column: 7 / 8;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderStatus {
+  grid-column: 9 / 10;
+  display: flex;
+  align-items: center;
+  
+}
+

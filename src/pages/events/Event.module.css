@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 60px 20px 60px;
+  }
+  
+  .title {
+    display: flex;
+    column-gap: 20px;
+    align-self: flex-start;
+    margin-bottom: 30px;
+  }
+  

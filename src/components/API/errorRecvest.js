@@ -1,0 +1,5 @@
+export const status401 = 'Вы не авторизированы, перейдите на форму входа'
+export const status404 = 'Запрос не найден'
+export const status403 = 'Недостаточно прав для совершения данного действия'
+export const status500 = 'Ошибка сервера'
+export const newError = 'Произошла неизвестная ошибка'

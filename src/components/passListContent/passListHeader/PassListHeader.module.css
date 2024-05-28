@@ -1,0 +1,51 @@
+.tableHeader {
+  position:-webkit-sticky;
+  position:sticky;
+  z-index: 3;
+  top: 0px;
+  background-color: var(--color-background);
+  border-radius: 10px;
+  padding: 8px 4px 8px 20px;
+  width: 100%;
+  margin-bottom: 18px;
+  font-size: 14px;
+  color: var(--color-text-gray);
+  display: grid;
+  grid-template-columns: 40px 1fr 300px 3fr 150px 3fr 220px 3fr 350px 3fr 120px 1fr 120px;
+}
+
+.tableHeaderName {
+  grid-column: 3 / 4;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderTel {
+  grid-column: 5 / 6;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderDate {
+  grid-column: 7 / 8;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderTerritory {
+  grid-column: 9 / 10;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderStatus {
+  grid-column: 11 / 12;
+  display: flex;
+  align-items: center;
+}
+
+.tableHeaderAction {
+  grid-column: 13 / 14;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,90 @@
+.mainAuth {
+    background-color: var(--color-background);
+    padding: 20px 60px 40px 60px;
+    ;
+}
+
+.wrapAuth {
+    display: flex;
+    width: 540px;
+    max-width: 540px;
+    padding: 60px 60px 40px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.wrapLogin {
+    display: flex;
+    width: 540px;
+    height: 580px;
+    max-width: 540px;
+    padding: 60px 60px 100px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.auth {
+    width: 420px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.titleAuth {
+    color: var(--color-black);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: 0.24px;
+}
+
+
+.titleLogin {
+    color: var(--color-black);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: 0.24px;
+    margin-bottom: 20px;
+}
+
+.agree {
+    display: flex;
+    flex-direction: column;
+}
+
+.agreeText {
+    color: var(--text-icon-60-light, rgba(0, 0, 0, 0.60));
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.24px;
+}
+
+.agreeLink {
+    color: var(--color-primary);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 16.8px */
+    letter-spacing: 0.24px;
+    text-decoration-line: underline;
+
+}

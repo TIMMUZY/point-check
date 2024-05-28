@@ -1,0 +1,90 @@
+.typeWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px 10px 10px;
+  gap: 16px;
+  background-color: var(--color-background);
+  border-radius: 20px;
+  position: relative;
+}
+.cursor {
+  cursor: pointer;
+}
+
+.blockTerritory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 342px;
+}
+
+.descriptionTerritory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameTerritory,
+.noteTerritory {
+  color: var(--text-icon-100-light, #000);
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+}
+.noteTerritory {
+  color: var(--text-icon-60-light, rgba(0, 0, 0, 0.6));
+}
+.rotateUp {
+  transform: rotate(-90deg);
+}
+.rotateDown {
+  transform: rotate(90deg);
+}
+
+.ul {
+  max-height: 500px;
+  overflow: auto;
+  line-height: 24px;
+  position: absolute;
+  top: 105%;
+  right: 1px;
+  padding: 10px 30px 10px 10px;
+  z-index: 2;
+  border-radius: 20px;
+  background: var(--bg-02-secondary-background-light, #f5f5f5);
+}
+.li {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+.border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--text-icon-10-light, rgba(0, 0, 0, 0.1));
+}
+
+.input {
+  appearance: none;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  transition: 0.2s all linear;
+  border: 2px solid var(--color-text-gray);
+}
+
+.input:checked {
+  border: 5px solid var(--color-primary);
+}
+.imageTerritory {
+  width: 80px;
+  height: 80px;
+}
+
+.itemImage {
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

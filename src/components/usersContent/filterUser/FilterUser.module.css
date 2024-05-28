@@ -1,0 +1,33 @@
+.filterWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  column-gap: 10px;
+}
+
+.selectedFilters {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+}
+
+.selectedFilter {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding: 6px 8px 6px 20px;
+  background-color: var(--color-active);
+  border-radius: 100px;
+  color: var(--color-white);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.24px;
+}

@@ -1,0 +1,43 @@
+.inputNameWrapper {
+  width: 100%;
+  padding: 0 8px 0 16px;
+  border-radius: 12px;
+  outline: 1px solid rgba(139, 139, 139, 0.3);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputName {
+  border: none;
+  padding: 16px 16px 16px 8px;
+  width: 100%;
+  background-color: var(--color-transparent);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}
+
+.inputName:focus {
+  outline: none;
+}
+
+.inputNameWrapper:focus-within {
+  outline: 2px solid var(--color-text-gray);
+}
+
+.outlineRed {
+  outline: 1px solid red;
+}
+
+.clearDiv {
+  display: block;
+  cursor: pointer;
+}
+
+.clearDivNone {
+  display: none;
+}

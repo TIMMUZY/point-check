@@ -1,0 +1,78 @@
+.label {
+  width: 100%;
+  padding: 10px 16px 10px 25px;
+  font-size: 14px;
+  /* color: var(--color-text-gray); */
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.radioBox {
+  position: absolute;
+  margin-left: -1.8em;
+  margin-top: .1em;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-text-gray);
+  border-radius: 50%;
+}
+
+.input:checked+.radioBox {
+  border: 5px solid var(--color-primary);
+}
+
+.input:focus+.radioBox {
+  /* box-shadow: 0 0 0 0.1em var(--color-brand); */
+}
+
+.input:disabled+.radioBox {
+  border: 2px solid var(--color-secondary);
+}
+
+.input:checked:disabled+.radioBox {
+  border: 5px solid var(--color-secondary);
+}
+
+.labelRole {
+  cursor: pointer;
+  width: 100%;
+  padding: 14px 18px;
+  height: 46px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 14px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  transition: all .5s ease-out;
+  color: var(--color-text-gray);
+  text-align: center;
+}
+
+.labelRole:hover {
+  transform: translateY(-2px);
+  color: var(--color-text-dark);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.radioBoxRole {
+  color: transparent;
+}
+
+.input:checked+.radioBoxRole {
+  color: var(--color-text-gray);
+}

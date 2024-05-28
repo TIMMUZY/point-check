@@ -1,0 +1,54 @@
+.photoAvaBlog {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    border-radius: 999px;
+    background: var(--color-blue-light);
+}
+
+.hidden {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    line-height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.contentWrapAva {
+    /* width: 360px; */
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative; 
+}
+
+.imgAva {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+.error {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.23999999463558197px;
+    text-align: left;
+    color: var(--color-red);
+  }
+  .errorTost {
+    background: rgb(241, 156, 156);
+    color: black;
+    font-size: 20px;
+  }

@@ -1,0 +1,43 @@
+.label {
+  width: 100%;
+  padding: 10px 16px 10px 25px;
+  font-size: 14px;
+  /* color: var(--color-text-gray); */
+  cursor: pointer;
+}
+
+.input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.checkBox {
+  position: absolute;
+  margin-left: -1.8em;
+  margin-top: .1em;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-text-gray);
+  border-radius: 5px;
+}
+
+.input:checked+.checkBox {
+  border: 5px solid var(--color-primary);
+}
+
+.input:focus+.checkBox {
+  /* box-shadow: 0 0 0 0.1em var(--color-brand); */
+}
+
+.input:disabled+.checkBox {
+  border: 2px solid var(--color-secondary);
+}
+
+.checkInput:checked:disabled+.checkBox {
+  border: 5px solid var(--color-secondary);
+}

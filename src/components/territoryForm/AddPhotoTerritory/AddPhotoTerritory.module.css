@@ -1,0 +1,66 @@
+.forImage {
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-text-gray);
+  display: flex;
+  padding: 40px 27px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 2px dashed var(--color-text-gray);
+  background: var(--color-blue-light);
+}
+
+.dragOver {
+  border: 2px dashed var(--color-active);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.error {
+  color: var(--color-red);
+  border-color: var(--color-red);
+}
+
+.imageContainer {
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  height: 140px;
+}
+
+.imageWrapper {
+  grid-column: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.image {
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.deleteButtonContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px; /* Задайте необходимый отступ для кнопки */
+}

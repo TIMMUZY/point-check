@@ -1,0 +1,7 @@
+.eye {
+  fill: var(--color-text-gray);
+  width: 1.5em;
+  height: 1.5em;
+  cursor: pointer;
+  flex-shrink: 0;
+}

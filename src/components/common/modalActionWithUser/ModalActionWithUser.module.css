@@ -1,0 +1,26 @@
+/* .wrapper {
+  width: 700px;
+  padding: 20px 30px 30px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: var(--color-black);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+} */
+
+.container {
+  width: 290px;
+  display: grid;
+  row-gap: 1px;
+}

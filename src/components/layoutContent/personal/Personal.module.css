@@ -1,0 +1,44 @@
+.account {
+  display: flex;
+  column-gap: 16px;
+}
+
+.accountPhoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-blue-light);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgAva {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.accountTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2px;
+}
+
+.accountName {
+  color: var(--color-active);
+}
+
+.accountRole {
+  color: var(--color-text-dark);
+}
+
+.personWrap {
+  display: flex;
+  gap: 20px;
+}

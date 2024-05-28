@@ -1,0 +1,38 @@
+.inputTelWrapper {
+  width: 100%;
+  padding: 0 8px 0 16px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputTel {
+  border: none;
+  padding: 16px 16px 16px 8px;
+  width: 100%;
+  background-color: var(--color-transparent);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}
+
+.inputTel:focus {
+  outline: none;
+}
+
+.inputTelWrapper:focus-within {
+  outline: 2px solid var(--color-text-gray);
+}
+
+.darkSideInputText input {
+  color: var(--color-text-gray);
+}
+
+.colorNegativeInput {
+  outline: 2px solid var(--color-negative);
+  margin-bottom: 8px;
+}

@@ -1,0 +1,73 @@
+.btnLoading {
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.disabled {
+  background-color: var(--color-disabled);
+  color: var(--color-text-gray);
+  cursor: auto;
+}
+
+.disabledDark {
+  background-color: var(--color-back-in-dark);
+  color: var(--color-text-gray);
+  cursor: auto;
+}
+
+.colorPrimary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.colorSecondary { 
+  background-color: var(--color-secondary);
+  color: var(--color-text-gray);
+}
+
+.colorGhost { 
+  background-color: var(--color-transparent);
+  color: var(--color-text-gray);
+}
+
+.colorBackInDark { 
+  background-color: var(--color-back-in-dark);
+  color: var(--color-text-gray);
+}
+
+.colorActive {
+  background-color: var(--color-active);
+  color: var(--color-white);
+}
+
+.colorActiveInDark {
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+}
+
+.colorBrand {
+  background-color: var(--color-brand);
+}
+
+.btnLoadingBig {
+  font-size: 16px;
+  padding: 16px 192px;
+}
+
+.btnLoadingMedium {
+  font-size: 14px;
+  padding: 10px 194px;
+}
+
+.btnLoadingSmall {
+  font-size: 18px;
+  padding: 6px 196px;
+}

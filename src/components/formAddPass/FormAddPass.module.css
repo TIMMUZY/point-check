@@ -1,0 +1,36 @@
+.passBody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.typeWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: var(--color-background);
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+
+.error {
+  background: rgb(241, 156, 156);
+  color: black;
+  font-size: 20px;
+}
+.outlineRed {
+  outline: 1px solid red;
+}
+.outlineGrey {
+  outline: 1px solid rgba(139, 139, 139, 0.3);
+}
+
+.textError {
+  color: red;
+}

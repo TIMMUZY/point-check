@@ -1,0 +1,84 @@
+.wrapEvents {
+    width: 100%;
+}
+
+.titleEvents {
+    display: flex;
+    padding: 10px 40px 10px 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+    letter-spacing: 0.24px;
+}
+
+.ulEvents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    overflow-y: auto;
+    /* Установите высоту или максимальную высоту, чтобы контент начал скроллиться, когда он превышает размер блока */
+    max-height: 400px; 
+}
+
+.itemEvents {
+    display: flex;
+    width: 100%;
+    padding: 20px 40px 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--color-background);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.textMain {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.24px;
+    margin-left: 10px;
+}
+
+.textNegative {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.24px;
+}
+
+.error {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.23999999463558197px;
+    text-align: left;
+    color: var(--color-red);
+    padding-left: 20px;
+  }
+
+  .contentCrosses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .buttonBlog{
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,77 @@
+.loader{
+	width:100px;
+	height:100px;
+	background-color:#FFFFFF;
+	overflow:hidden;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+/* 	border:4px solid #5dba9d; */
+  border:4px solid #4D6CE1; 
+/* 	position:relative; */
+	margin:15px auto;
+}
+
+.elementAnimation{
+  animation:animationFrames linear 1.5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: animationFrames linear 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: animationFrames linear 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: animationFrames linear 1.5s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: animationFrames linear 1.5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+
+@keyframes animationFrames{
+  0% {
+    transform: translate(-125px,5px)  ;
+  }
+  100% {
+    transform: translate(70px,5px)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    transform: translate(-125px,5px)  ;
+  }
+  100% {
+    transform: translate(70px,5px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    transform: translate(-125px,5px)  ;
+  }
+  100% {
+    transform: translate(70px,5px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    transform: translate(-125px,5px)  ;
+  }
+  100% {
+    transform: translate(70px,5px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    transform: translate(-125px,5px)  ;
+  }
+  100% {
+    transform: translate(70px,5px)  ;
+  }
+}

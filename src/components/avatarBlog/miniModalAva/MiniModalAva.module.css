@@ -1,0 +1,24 @@
+.contentModal {
+    visibility: hidden;
+    outline: 2px solid rgba(139, 139, 139, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    border-radius: 12px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    right: 40px;
+    transform: scale(0);
+    transition: 0.4s all;
+    top: calc(100% + 5px); /* Разместите под кнопкой с отступом 5px */
+    left: 15%;
+}
+
+.contentModal.active {
+    visibility: visible;
+    transform: scale(1);
+}
+

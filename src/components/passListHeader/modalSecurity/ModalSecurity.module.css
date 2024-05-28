@@ -1,0 +1,40 @@
+.wrapModal {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s;
+}
+
+.wrapModal.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.contentModal {
+    visibility: hidden;
+    border-radius: 12px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow: hidden;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+
+.contentModal.active {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}

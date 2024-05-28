@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  row-gap: 1px;
+}
+.errorTost {
+  background: rgb(241, 156, 156);
+  color: black;
+  font-size: 20px;
+}

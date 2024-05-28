@@ -1,0 +1,67 @@
+.formCar {
+  display: flex;
+  column-gap: 20px;
+}
+
+.inputCarWrapper {
+  width: 100%;
+  padding: 0 8px 0 16px;
+  border-radius: 12px;
+  outline: 1px solid rgba(139, 139, 139, 0.3);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputCar {
+  border: none;
+  padding: 16px 16px 16px 8px;
+  width: 100%;
+  background-color: var(--color-transparent);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}
+
+.inputCar:focus {
+  outline: none;
+}
+
+.inputCarWrapper:focus-within {
+  outline: 2px solid var(--color-text-gray);
+}
+
+.ul {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 999;
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+  background: #ffffff;
+  outline: 2px solid var(--color-text-gray);
+
+  max-height: 134px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 24px;
+  gap: 10px;
+}
+
+.li {
+  cursor: pointer;
+}
+
+.outlineRed {
+  outline: 1px solid red;
+}

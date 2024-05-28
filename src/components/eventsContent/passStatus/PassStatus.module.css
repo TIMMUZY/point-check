@@ -1,0 +1,46 @@
+.passStatus {
+  width: 110px;
+  height: 32px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: var(--color-text-dark);
+}
+
+.active {
+  background-color: rgba(21, 162, 80, .4);
+}
+
+.waiting {
+  background-color: rgba(253, 215, 19, 0.2);
+}
+
+.attention {
+  background-color: rgba(221, 67, 51, 0.4);
+  white-space: nowrap;
+}
+
+.inactive {
+  background-color: rgba(138, 148, 153, 0.4);
+  color: rgba(83, 83, 83, 0.8);
+}
+
+
+.passStatusEvent {
+  width: 110px;
+  height: 32px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}

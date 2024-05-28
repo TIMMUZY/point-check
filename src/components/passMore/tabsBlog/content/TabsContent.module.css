@@ -1,0 +1,82 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  /* max-height: 200px; */
+  overflow: auto;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 10px;
+  background: var(--color-background);
+}
+
+h2 {
+  color: var(--color-black);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+}
+
+.infoItem {
+}
+
+.timeBlog {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.lable {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.24px;
+}
+.lableRight {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.text {
+  color: var(--color-black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 0.24px;
+}
+
+.contentType {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  width: 100%;
+}
+
+.contentBlog {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--color-background);
+  width: 100%;
+}

@@ -1,0 +1,118 @@
+.wrap {
+    display: flex;
+    width: 600px;
+    height: 715px;
+    padding: 1px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+
+}
+
+.titleBlog {
+    display: flex;
+    padding: 20px 20px 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+h2 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 28.6px */
+    letter-spacing: 0.24px;
+}
+
+.content {
+    display: flex;
+    padding: 0px 30px 30px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    width: 598px;
+    height:630px;
+}
+
+.buttonBlog {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.territoryBlog {
+    display: flex;
+    padding: 10px 30px 10px 10px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--color-background);
+    gap: 40px;
+    align-items: center;
+}
+
+.itemImageWrapper {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--color-blue-light);
+    display: flex;
+}
+
+.itemImage {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.territoryInfo {
+    display: flex;
+    gap: 1px;
+    flex-direction: column-reverse;
+}
+
+.itemCity {
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.24px;
+}
+
+.itemName {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: 0.24px;
+}
+
+.itemAddress {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.24px;
+}
+.error {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.23999999463558197px;
+    text-align: center;
+    color: var(--color-red);
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+  
+  }

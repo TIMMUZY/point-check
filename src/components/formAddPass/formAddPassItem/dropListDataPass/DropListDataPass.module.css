@@ -1,0 +1,52 @@
+.ulCar {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  max-height: 335px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 999;
+  padding: 0;
+  margin: 0;
+  border-radius: 12px;
+  background: #ffffff;
+  outline: 2px solid var(--color-text-gray);
+}
+
+.liCar {
+  border-bottom: 1px solid var(--text-icon-10-light, rgba(0, 0, 0, 0.1));
+  cursor: pointer;
+}
+.liCar:last-child {
+  padding-bottom: 10px;
+}
+
+.liCar:hover {
+  background-color: var(--color-active);
+}
+.liCar:hover h1,
+.liCar:hover h2,
+.liCar:hover h3 {
+  color: var(--color-white);
+}
+
+.blockCarList {
+  padding: 20px 20px 10px;
+}
+
+.licensePlate,
+.brand,
+.phone {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  text-align: left;
+}
+.brand,
+.phone {
+  font-size: 14px;
+}

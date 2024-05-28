@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: . # Путь к директории, где находится Dockerfile фронтенда
+      dockerfile: Dockerfile # Указываем имя Dockerfile, если оно нестандартное
+    image: aasurov/anvilcoder-frontend:${IMAGE_TAG} # Имя образа для сборки и пуша в реестр
+    ports:
+      - "8082:80" # Порт, доступный снаружи:порт внутри контейнера
+    environment:
+      - REACT_APP_API_URL=http://spring-app:8080 # Пример переменной окружения для API URL
+    networks:
+          - my_network
+    restart: unless-stopped # Автоматически перезапускать, если сервис не был остановлен вручную
+networks:
+  my_network:
+    external: true

@@ -1,0 +1,29 @@
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tab {
+    display: flex;
+    height: 46px;
+    padding: 14px 18px;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-gray);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    /* 100% */
+    letter-spacing: 0.24px;
+    cursor: pointer;
+}
+
+.activeTab {
+    border-radius: 8px;
+    background: var(--color-active);
+    color: var(--color-white);
+}

@@ -1,0 +1,53 @@
+.formDate {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.inputDateWrapper {
+  width: 100%;
+  /* padding-left: 16px; */
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputDate {
+  border: none;
+  padding: 16px 0px 16px 48px;
+  width: 100%;
+  background-color: var(--color-transparent);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.inputDate:focus {
+  outline: none;
+}
+
+.inputDateWrapper:focus-within {
+  outline: 2px solid var(--color-text-gray);
+}
+
+.darkSideInputDate input {
+  color: var(--color-text-gray);
+}
+
+.color-negative-input {
+  border-color: var(--color-negative) !important;
+}
+
+.inputDateWrapper
+  input[type='datetime-local']::-webkit-calendar-picker-indicator {
+  /* float: left;
+  cursor: pointer; */
+  position: absolute;
+  left: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.formCar {
+  display: flex;
+  column-gap: 20px;
+}
+
+.inputCarWrapper {
+  width: 100%;
+  padding-left: 16px;
+  border-radius: 12px;
+  outline: 1px solid rgba(139, 139, 139, 0.3);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputCar {
+  border: none;
+  padding: 16px 16px 16px 8px;
+  width: 100%;
+  background-color: var(--color-transparent);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.24px;
+  color: var(--color-black);
+}
+
+.inputCar:focus {
+  outline: none;
+}
+
+.inputCarWrapper:focus-within {
+  outline: 2px solid var(--color-text-gray);
+}
+
+.darkSideInputCar input {
+  color: var(--color-text-gray);
+}
+
+.colorNegativeInput {
+  outline: 2px solid var(--color-negative);
+  margin-bottom: 8px;
+}

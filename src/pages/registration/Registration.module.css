@@ -1,0 +1,22 @@
+.wrap {
+  display: flex;
+  padding: 20px 60px 40px 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  display: flex;
+  height: 100vh; /* Задает высоту на 100% высоты видимой области экрана */
+  text-align: center; /* Центрирует текст внутри контейнера */
+}
+
+.text {
+  color: var(--color-black);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.24px;
+}

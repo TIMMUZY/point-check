@@ -1,0 +1,10 @@
+.delete {
+  fill: #DD4333;
+  width: 1.5em;
+  height: 1.5em;
+  flex-shrink: 0;
+}
+
+.icon-medium {
+  padding: 11px;
+}

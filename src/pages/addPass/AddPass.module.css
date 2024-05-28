@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 14px 20px 14px;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 540px;
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.passHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .passBody {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.typeWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: var(--color-background);
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.formTitle {
+  font-size: 16px;
+}
+
+.formType {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+} */

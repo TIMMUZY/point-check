@@ -1,0 +1,25 @@
+.wrapper {
+  width: 850px;
+  padding: 20px 30px 30px 30px;
+}
+
+.header {
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-black);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+}
+
+.list {
+  display: grid;
+  row-gap: 10px;
+}

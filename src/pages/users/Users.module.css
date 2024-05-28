@@ -1,0 +1,19 @@
+.main {
+  padding: 35px 60px 20px 60px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.typeWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+  background-color: var(--color-white);
+  border-radius: 10px;
+}

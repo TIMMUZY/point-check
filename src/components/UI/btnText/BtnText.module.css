@@ -1,0 +1,171 @@
+.btnText {
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-background);
+  transition: all .5s ease-out;
+}
+
+.btnText:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnText:active {
+  background-color: var(--color-active);
+}
+
+.width227 {
+  width: 227px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.disabled {
+  background-color: var(--color-disabled);
+  color: var(--color-text-gray);
+  cursor: auto;
+}
+
+.disabledDark {
+  background-color: var(--color-back-in-dark);
+  color: var(--color-text-gray);
+  cursor: auto;
+}
+
+.rotate180 {
+  transform: rotate(180deg);
+}
+
+.colorPrimary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.colorHighlightLight {
+  background-color: var(--color-blue-light);
+  color: var(--color-text-gray);
+}
+
+.colorSecondary {
+  background-color: var(--color-secondary);
+  color: var(--color-text-gray);
+}
+
+.colorGhost {
+  background-color: var(--color-transparent);
+  color: var(--color-text-gray);
+}
+
+.colorBackInDark {
+  background-color: var(--color-back-in-dark);
+  color: var(--color-text-gray);
+}
+
+.colorActiveInDark {
+  background-color: var(--color-white);
+  color: var(--color-text-dark);
+}
+
+.colorActive {
+  background-color: var(--color-active);
+  color: var(--color-white);
+}
+
+.colorNegative {
+  background-color: var(--color-negative);
+  color: var(--color-white);
+}
+
+.colorRed {
+  background-color: rgba(221, 67, 51, 0.4);
+  color: var(--color-text-dark);
+}
+
+.colorYellow {
+  background-color: rgba(253, 215, 19, 0.2);
+  color: var(--color-text-dark);
+}
+
+.colorGreen {
+  background-color: rgba(21, 162, 80, .4);
+  color: var(--color-text-dark);
+}
+
+.forFilterDeleteAll {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  column-gap: 10px;
+  padding: 6px 20px;
+  background-color: var(--color-active);
+  border-radius: 100px;
+  color: var(--color-white);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.24px;
+}
+
+.btnTextBig {
+  font-size: 16px;
+  padding: 16px 22px;
+}
+
+.btnTextMedium {
+  font-size: 14px;
+  padding: 14px 18px;
+}
+
+.btnTextSmall {
+  font-size: 12px;
+  padding: 12px 16px;
+}
+
+.arrow-big-text {
+  width: 24px;
+  height: 24px;
+}
+
+.arrow-medium-text {
+  width: 18px;
+  height: 18px;
+}
+
+.arrow-small-text {
+  width: 14px;
+  height: 14px;
+}
+
+.btnTextTypePass {
+  font-size: 12px;
+  padding: 12px 16px;
+  border-radius: 999px;
+}
+
+.btnTextTypePost {
+  font-size: 16px;
+  padding: 12px 16px;
+  border-radius: 999px;
+}
+
+.pagination {
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.cursorAuto {
+  cursor: auto;
+}

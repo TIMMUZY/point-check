@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    padding: 20px 60px 40px 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    background-color: var(--color-background);
+}
+
+.contentWrap {
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.titlePerson {
+    display: flex;
+    height: 46px;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.infoBlog {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--color-white);
+    width: 420px;
+}
+
+.inputInfoBlog {
+    width: 360px;
+    gap: 12px;
+}
+
+.textInputInfoBlog {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: 0.24px;
+    color: var(--color-text-gray);
+    margin-bottom: 12px;
+}
+
+.changEmailBlog {
+    display: flex;
+    padding: 40px 30px 30px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    background: var(--color-white);
+    width: 420px;
+    border-radius: 20px;
+}
+
+.titleInfoBlog {
+    color: var(--color-black);
+    /* Title/H2 */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* 28.6px */
+    letter-spacing: 0.24px;
+}
+
+.textChangeBlog {
+    color: var(--color-black);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.24px;
+}

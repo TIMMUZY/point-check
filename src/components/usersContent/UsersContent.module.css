@@ -1,0 +1,14 @@
+.actionWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin-bottom: 30px;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
